@@ -1,0 +1,8 @@
+{
+    "private": true,
+    "workspaces": ["server", "client"],
+    "dependencies": {
+      "shared-dependency": "^1.0.0"
+    }
+  }
+  
