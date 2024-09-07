@@ -1,0 +1,7 @@
+{
+    "private": true,
+    "workspaces": ["Backend", "Frontend"],
+    "dependencies": {
+      "shared-dependency": "^1.0.0"
+    }
+}
