@@ -1,0 +1,119 @@
+[
+    {
+    "question": "A car travels half the distance with constant velocity of 40 kmph and the remaining half with a constant velocity of 60 kmph. The average velocity of the car in kmph is",
+    "options": [
+    "40",
+    "45",
+    "48",
+    "50"
+    ],
+    "correctAnswer": "c",
+    "difficulty": "Easy",
+    "chapter": "Motion in one dimension",
+    "topic": "Uniform Motion"
+    },
+    {  
+        "question": "If a car covers \\( \\frac{2}{5} \\) of the total distance with \\( v_1 \\) speed and \\( \\frac{3}{5} \\) distance with \\( v_2 \\) then average speed is",  
+        "options": [  
+            "\\( \\frac{1}{2} \\sqrt{v_1 v_2} \\)",  
+            "\\( \\frac{v_1 + v_2}{2} \\)",  
+            "\\( \\frac{2 v_1 v_2}{v_1 + v_2} \\)",  
+            "\\( \\frac{5 v_1 v_2}{3 v_1 + 2 v_2} \\)"  
+        ],  
+        "correctAnswer": "d",  
+        "difficulty": "Medium",  
+        "chapter": "Motion in one dimension",  
+        "topic": "Uniform Motion"  
+    },
+    {  
+        "question": "A man walks on a straight road from his home to a market 2.5 \\( km \\) away with a speed of 5 \\( km/h \\). Finding the market closed, he instantly turns and walks back home with a speed of 7.5 \\( km/h \\). The average speed of the man over the interval of time 0 to 40 \\( min \\) is equal to",  
+        "options": [  
+            "5 \\( km/h \\)",  
+            "\\( \\frac{25}{4} \\) \\( km/h \\)",  
+            "\\( \\frac{30}{4} \\) \\( km/h \\)",  
+            "\\( \\frac{45}{8} \\) \\( km/h \\)"  
+        ],  
+        "correctAnswer": "d",  
+        "difficulty": "Medium",  
+        "chapter": "Motion in one dimension",  
+        "topic": "Uniform Motion"  
+    },  
+    {  
+        "question": "The ratio of the numerical values of the average velocity and average speed of a body is always",  
+        "options": [  
+            "Unity",  
+            "Unity or less",  
+            "Unity or more",  
+            "Less than unity"  
+        ],  
+        "correctAnswer": "b",  
+        "difficulty": "Easy",  
+        "chapter": "Motion in one dimension",  
+        "topic": "Uniform Motion"  
+    },  
+    {  
+        "question": "A person travels along a straight road for the first half time with a velocity \\( v_1 \\) and the next half time with a velocity \\( v_2 \\). The mean velocity \\( V \\) of the man is",  
+        "options": [  
+            "\\( \\frac{2}{V} = \\frac{1}{v_1} + \\frac{1}{v_2} \\)",  
+            "\\( V = \\frac{v_1 + v_2}{2} \\)",  
+            "\\( V = \\sqrt{v_1 v_2} \\)",  
+            "\\( V = \\sqrt{\\frac{v_1}{v_2}} \\)"  
+        ],  
+        "correctAnswer": "b",  
+        "difficulty": "Medium",  
+        "chapter": "Motion in one dimension",  
+        "topic": "Uniform Motion"  
+    },
+    {  
+        "question": "A person travels along a straight road for half the distance with velocity $v_1$ and the remaining half distance with velocity $v_2$. The average velocity is given by",  
+        "options": [  
+            "$v_1 v_2$",  
+            "$\\frac{v_2^2}{v_1}$",  
+            "$\\frac{v_1 + v_2}{2}$",  
+            "$\\frac{2 v_1 v_2}{v_1 + v_2}$"  
+        ],  
+        "correctAnswer": "d",  
+        "difficulty": "Medium",  
+        "chapter": "Motion in one dimension",  
+        "topic": "Uniform Motion"  
+    }, 
+    {  
+        "question": "A car accelerates from rest at a constant rate \\( \\alpha \\) for some time, after which it decelerates at a constant rate \\( \\beta \\) and comes to rest. If the total time elapsed is \\( t \\), then the maximum velocity acquired by the car is",  
+        "options": [  
+            "\\left( \\frac{\\alpha^2 + \\beta^2}{\\alpha \\beta} \\right) t",  
+            "\\left( \\frac{\\alpha^2 - \\beta^2}{\\alpha \\beta} \\right) t",  
+            "\\frac{(\\alpha + \\beta)t}{\\alpha \\beta}",  
+            "\\frac{\\alpha \\beta t}{\\alpha + \\beta}"  
+        ],  
+        "correctAnswer": "d",  
+        "difficulty": "Hard",  
+        "chapter": "Motion in one dimension",  
+        "topic": "Uniform Motion"  
+    },
+    {  
+        "question": "A stone dropped from a building of height \\( h \\) and it reaches after \\( t \\) seconds on earth. From the same building if two stones are thrown (one upwards and other downwards) with the same velocity \\( u \\) and they reach the earth surface after \\( t_1 \\) and \\( t_2 \\) seconds respectively, then",  
+        "options": [  
+            "t = t_1 - t_2",  
+            "t = \\frac{t_1 + t_2}{2}",  
+            "t = \\sqrt{t_1 t_2}",  
+            "t = t_1^2 t_2^2"  
+        ],  
+        "correctAnswer": "c",  
+        "difficulty": "Hard",  
+        "chapter": "Motion in one dimension",  
+        "topic": "Uniform Motion"  
+    },
+    {  
+        "question": "A particle of mass \\( m \\) moves on the x-axis as follows: it starts from rest at \\( t = 0 \\) from the point \\( x = 0 \\) and comes to rest at \\( t = 1 \\) at the point \\( x = 1 \\). No other information is available about its motion at intermediate time \\( (0 < t < 1) \\). If \\( \\alpha \\) denotes the instantaneous acceleration of the particle, then",  
+        "options": [  
+            "\\( \\alpha \\) cannot remain positive for all \\( t \\) in the interval \\( 0 \\leq t \\leq 1 \\)",  
+            "\\( |\\alpha| \\) cannot exceed 2 at any point in its path",  
+            "\\( |\\alpha| \\) must be \\( \\geq 4 \\) at some point or points in its path",  
+            "\\( \\alpha \\) must change sign during the motion but no other assertion can be made with the information given"  
+        ],  
+        "correctAnswer": "a d",  
+        "difficulty": "Hard",  
+        "chapter": "Motion in one dimension",  
+        "topic": "Uniform Motion"  
+    }  
+]

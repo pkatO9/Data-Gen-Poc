@@ -1,0 +1,197 @@
+[
+    {
+        "question": "Two trains are moving towards each other on parallel tracks with speeds of 60 km/h and 90 km/h, respectively. If they are initially 300 km apart, how long will it take for them to meet?",
+        "options": [
+            "2 hours",
+            "2.5 hours",
+            "3 hours",
+            "3.5 hours"
+        ],
+        "correctAnswer": "b",
+        "difficulty": "Hard",
+        "chapter": "Motion in one dimension",
+        "topic": "Uniform Motion"
+    },
+    {
+        "question": "A particle starts from rest and accelerates uniformly at 4 m/s². After 5 seconds, it continues to move with constant velocity for 10 seconds. Calculate the total distance traveled by the particle.",
+        "options": [
+            "150 m",
+            "200 m",
+            "250 m",
+            "300 m"
+        ],
+        "correctAnswer": "c",
+        "difficulty": "Hard",
+        "chapter": "Motion in one dimension",
+        "topic": "Uniform Motion"
+    },
+    {
+        "question": "A velocity-time graph of a particle moving in a straight line is a straight line passing through the origin with a slope of 2 m/s². What is the displacement of the particle in the first 4 seconds?",
+        "options": [
+            "8 m",
+            "16 m",
+            "24 m",
+            "32 m"
+        ],
+        "correctAnswer": "b",
+        "difficulty": "Hard",
+        "chapter": "Motion in one dimension",
+        "topic": "Uniform Motion"
+    },
+    {
+        "question": "A ball is thrown vertically upward with a speed of 20 m/s from the ground. Calculate the maximum height reached by the ball. (Take g = 10 m/s²)",
+        "options": [
+            "10 m",
+            "20 m",
+            "30 m",
+            "40 m"
+        ],
+        "correctAnswer": "b",
+        "difficulty": "Hard",
+        "chapter": "Motion in one dimension",
+        "topic": "Uniform Motion"
+    },
+    {
+        "question": "A car traveling at 30 m/s comes to a stop in 10 seconds with uniform deceleration. Calculate the distance covered by the car during this time.",
+        "options": [
+            "150 m",
+            "200 m",
+            "250 m",
+            "300 m"
+        ],
+        "correctAnswer": "a",
+        "difficulty": "Hard",
+        "chapter": "Motion in one dimension",
+        "topic": "Uniform Motion"
+    },
+    {
+        "question": "A cyclist travels 10 km at a speed of 20 km/h and then another 10 km at a speed of 30 km/h. What is the average speed of the cyclist for the entire trip?",
+        "options": [
+            "24 km/h",
+            "25 km/h",
+            "26 km/h",
+            "27 km/h"
+        ],
+        "correctAnswer": "a",
+        "difficulty": "Hard",
+        "chapter": "Motion in one dimension",
+        "topic": "Uniform Motion"
+    },
+    {
+        "question": "A particle moves along the x-axis such that its position \\( x \\) as a function of time \\( t \\) is given by \\( x(t) = 4t^2 - t^3 \\). Determine the time \\( t \\) when the particle comes to rest.",
+        "options": [
+            "1 s",
+            "2 s",
+            "3 s",
+            "4 s"
+        ],
+        "correctAnswer": "b",
+        "difficulty": "Hard",
+        "chapter": "Motion in one dimension",
+        "topic": "Uniform Motion"
+    },
+    {
+        "question": "A car is moving in a circular track of radius 100 m with a constant speed of 20 m/s. Calculate the time taken to complete one full revolution.",
+        "options": [
+            "10 s",
+            "20 s",
+            "30 s",
+            "40 s"
+        ],
+        "correctAnswer": "d",
+        "difficulty": "Hard",
+        "chapter": "Motion in one dimension",
+        "topic": "Uniform Motion"
+    },
+    {
+        "question": "A particle moves along a straight line with its position given by \\( x(t) = 3t^2 - 2t + 1 \\). Find the instantaneous velocity of the particle at \\( t = 2 \\) seconds.",
+        "options": [
+            "8 m/s",
+            "10 m/s",
+            "12 m/s",
+            "14 m/s"
+        ],
+        "correctAnswer": "c",
+        "difficulty": "Hard",
+        "chapter": "Motion in one dimension",
+        "topic": "Uniform Motion"
+    },
+    {
+        "question": "Two cars are moving in the same direction along a straight road with velocities of 60 km/h and 80 km/h, respectively. If the faster car is initially 100 km behind the slower car, how long will it take for the faster car to catch up with the slower car?",
+        "options": [
+            "2 hours",
+            "3 hours",
+            "4 hours",
+            "5 hours"
+        ],
+        "correctAnswer": "c",
+        "difficulty": "Hard",
+        "chapter": "Motion in one dimension",
+        "topic": "Uniform Motion"
+    },
+    {
+        "question": "A projectile is launched vertically upward with an initial velocity of 50 m/s. Calculate the total time the projectile will be in the air. (Take g = 10 m/s²)",
+        "options": [
+            "5 s",
+            "10 s",
+            "15 s",
+            "20 s"
+        ],
+        "correctAnswer": "b",
+        "difficulty": "Hard",
+        "chapter": "Motion in one dimension",
+        "topic": "Uniform Motion"
+    },
+    {
+        "question": "A particle moves along a straight line with an acceleration given by \\( a(t) = 6t - 4 \\) m/s². If the initial velocity of the particle is 2 m/s, find the velocity of the particle at \\( t = 3 \\) seconds.",
+        "options": [
+            "10 m/s",
+            "12 m/s",
+            "14 m/s",
+            "16 m/s"
+        ],
+        "correctAnswer": "c",
+        "difficulty": "Hard",
+        "chapter": "Motion in one dimension",
+        "topic": "Uniform Motion"
+    },
+    {
+        "question": "A car travels 100 km at a speed of 50 km/h and then another 100 km at a speed of 100 km/h. What is the average velocity of the car for the entire trip?",
+        "options": [
+            "60 km/h",
+            "66.67 km/h",
+            "75 km/h",
+            "80 km/h"
+        ],
+        "correctAnswer": "b",
+        "difficulty": "Hard",
+        "chapter": "Motion in one dimension",
+        "topic": "Uniform Motion"
+    },
+    {
+        "question": "A particle moves along the x-axis such that its position \\( x \\) as a function of time \\( t \\) is given by \\( x(t) = 2t^3 - 5t^2 + 4t - 1 \\). Find the instantaneous acceleration of the particle at \\( t = 2 \\) seconds.",
+        "options": [
+            "4 m/s²",
+            "8 m/s²",
+            "12 m/s²",
+            "16 m/s²"
+        ],
+        "correctAnswer": "d",
+        "difficulty": "Hard",
+        "chapter": "Motion in one dimension",
+        "topic": "Uniform Motion"
+    },
+    {
+        "question": "A distance-time graph of a particle moving in a straight line is a parabola given by \\( x(t) = 4t^2 + 2t \\). Calculate the velocity of the particle at \\( t = 3 \\) seconds.",
+        "options": [
+            "10 m/s",
+            "20 m/s",
+            "26 m/s",
+            "28 m/s"
+        ],
+        "correctAnswer": "d",
+        "difficulty": "Hard",
+        "chapter": "Motion in one dimension",
+        "topic": "Uniform Motion"
+    }
+]

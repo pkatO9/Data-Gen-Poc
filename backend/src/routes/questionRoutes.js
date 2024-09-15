@@ -11,4 +11,6 @@ router.post('/store', questionController.storeQuestion);
 // Route for fetching stored questions
 router.get('/fetch', questionController.fetchQuestions);
 
+router.post('/generate/rag', questionController.generateRAGQuestions);
+
 module.exports = router;

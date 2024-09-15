@@ -127,3 +127,64 @@ exports.fetchQuestions = async (req, res) => {
         res.status(500).json({ message: 'Error fetching questions', error });
     }
 };
+
+// RAG Controller
+exports.generateRAGQuestions = async (req, res) => {
+  try {
+    const { subject, chapter, topic, difficulty } = req.body;
+
+    // Step 2: Retrieve related context (questions/documents) from the database based on the subject, chapter, and topic.
+    const relatedDocs = await Question.find({
+      subject,
+      chapter,
+      topic,
+      difficulty,
+    }).limit(5); // Limit to a certain number of documents for context
+
+    // Step 3: Create the context for RAG by summarizing or extracting key information from relatedDocs
+    const context = relatedDocs.map(doc => `Q: ${doc.question} A: ${doc.correctAnswer}`).join('\n');
+
+    // Step 4: Pass this context to the GPT-4 API for augmented generation
+    const response = await axios.post(process.env.OPENAI_API_ENDPOINT, {
+      model: 'gpt-4',
+      messages: [
+        {
+          role: 'system',
+          content: 'You are an AI that generates questions using provided information.',
+        },
+        {
+          role: 'user',
+          content: `Use the following information to generate a new question: \n\n ${context} \n\n Please create a new question for the topic ${topic} in ${subject} with difficulty ${difficulty}.`,
+        },
+      ],
+      max_tokens: 300,
+      temperature: 0.7,
+    });
+
+    const generatedQuestion = response.data.choices[0]?.message?.content || 'No question generated';
+
+    // Step 5: Store the generated question
+    const newQuestion = new Question({
+      subject,
+      chapter,
+      topic,
+      question: generatedQuestion,
+      options: [], // You'll need to extract options as well, either from GPT or your logic.
+      difficulty,
+      correctAnswer: 'TBD', // You can refine this with a follow-up GPT call
+    });
+
+    await newQuestion.save();
+
+    res.status(200).json({
+      message: 'RAG question generated and stored successfully',
+      question: newQuestion,
+    });
+  } catch (error) {
+    console.error('Error generating RAG question:', error);
+    res.status(500).json({
+      message: 'Error generating RAG question',
+      error,
+    });
+  }
+};
